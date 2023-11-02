@@ -1,0 +1,124 @@
+.menu {
+
+height: 10vh;
+text-align: center;
+background: black;
+
+}
+
+.games-container {
+/*	overflow: scroll;*/
+height: 90vh;
+
+background-image:linear-gradient(45deg,#F38FFA,#539EEE);
+
+} 
+
+.menu-item {
+
+display: inline-block;
+
+font-weight: bold;
+
+ background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+
+text-decoration: none;
+
+font-size:40px;
+line-height: 10vh;
+margin: 0 30px;
+
+} 
+
+.menu-item:hover{
+
+text-shadow: 0 0 10px pink;
+
+transform: scale(1.1);
+
+transition: 0.5s;
+
+} 
+
+.games-item {
+
+width: 300px;
+float: left;
+list-style: none;
+height: 450px;
+margin:20px 20px;
+box-shadow: 0 5px 20px black;
+
+border-radius: 20px;
+filter:brightness(0.4);
+
+opacity: 0.5;
+
+transition: 0.5s;
+}
+
+.games-items {
+margin: auto;
+
+width: fit-content;
+} 
+
+.games-item:hover{
+
+filter: none;
+
+opacity: 1;
+
+transform: scale(1.02);
+
+} 
+
+.item1 {
+
+background: url('img/CS-GO.PNG') center/cover no-repeat;
+
+}
+
+.item2 {
+
+background: url('img/MCraft.PNG') center/cover no-repeat;;
+
+}
+
+.item3 {
+
+background: url('img/AmongUs.PNG') center/cover no-repeat;;
+
+}
+
+.item4 {
+
+background: url('img/Fortnite.PNG') center/cover no-repeat;;
+
+} 
+
+.game {
+
+display: block;
+
+width: 80%;
+
+padding 30px 20px;
+
+margin: 0 auto;
+background-color: coral;
+
+color:white;
+
+font-size: 40px;
+
+text-align: center;
+
+border-radius:20px;
+
+border: 2px solid white;
+margin-top: 350px;
+} 
